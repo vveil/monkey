@@ -242,7 +242,7 @@ func evalIdentifier(node *ast.Identifier, env *object.Environment) object.Object
 	return val
 }
 
-func evalExressions(exps []ast.Expression, env *object.Environment) []object.Object {
+func evalExpressions(exps []ast.Expression, env *object.Environment) []object.Object {
 	var result []object.Object
 
 	for _, e := range exps {
